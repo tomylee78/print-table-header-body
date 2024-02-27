@@ -1,0 +1,21 @@
+{
+    "name": "print-table-header-body",
+    "version": "1.0.0",
+    "description": "簡易的表頭表身分頁列印功能，適合用於出貨單、發票單等等上下兩階層的資料列。功能簡單、可自行複製修改使用。",
+    "main": "print_table_header_body.js",
+    "repository": "https://github.com/tomylee78/print-table-header-body",
+    "keywords": [
+        "print",
+        "table",
+        "jQuery",
+        "bootstral",
+        "demo"
+    ],
+    "author": "tomylee78 <tomylee78@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^5.3.2",
+        "jquery": "^3.3.1",
+        "normalize": "^8.0.1"
+    }
+}
