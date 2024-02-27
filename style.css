@@ -1,0 +1,44 @@
+.normal-container {
+    margin: auto;
+    max-height: 100% !important;
+    min-height: 100% !important;
+    height: 100% !important;
+    max-width: 90% !important;
+    min-width: 90% !important;
+    width: 90% !important;
+}
+
+@media print{
+    * {
+        color-adjust: exact!important;  
+        -webkit-print-color-adjust: exact!important;
+        
+    }
+    div, tr{
+        page-break-inside: avoid;
+    }
+}
+
+@page { 
+    size: A4 portrait;
+    margin: 1cm 1cm 1cm 1cm; 
+}
+
+.print-navbar-setting{
+    color: #727e8b;
+}
+
+.print-thead-setting{
+    color: #495057 !important;
+    background-color: #e9ecef !important;
+    border: 2px solid #dee2e6;
+    padding: 0.5rem!important;
+    font-size: 16px;
+}
+
+.print-tbody-setting{
+    border-top: 1.5px solid #dee2e6;
+    font-size: 14px;
+}
+
+
