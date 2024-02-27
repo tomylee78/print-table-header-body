@@ -1,3 +1,7 @@
+## 功能說明
+
+- 當觸發列印功能，若表身超過兩頁時，每頁的起頭都必須要有表頭，而表頭與表頭之間必定在不同分頁上
+
 ## 快速使用
 
 1. 引用 print_header_body.js 進專案內
@@ -9,14 +13,7 @@
 
 - 下載檔案後，使用 live server 直接執行 `index.html` 查看效果
 
-![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-1.png)
-![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-2.png)
-![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-3.png)
-![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-4.png)
-
-## 需求
-
-- 當觸發列印功能，若表身超過兩頁時，每頁的起頭都必須要有表頭，而表頭與表頭之間必定在不同分頁上
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-5.gif)
 
 ## 實作
 
@@ -444,3 +441,10 @@ export default function print_table_header_body(obj = {}) {
 
 - 這是我第一次嘗試在 gitbu 上分享東西，事情的起因是小組內需要這樣的列印功能，但查找的可行方案好像都沒法很好的支援動態表頭內容，最後靈機一動想到原生 `<thead>` 的分頁顯示特性，這才有了這個小工具，也順便練習怎麼寫 JSDoc 的註解。
 - 雖然最初立項只是完成小組的需求而已，無法完美契合其他工況，但關鍵還是核心邏輯的使用，所以就當拋磚引玉吧，若使用上有所不便，還請多多包涵。
+
+## 靜態截圖
+
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-1.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-2.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-3.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-4.png)
