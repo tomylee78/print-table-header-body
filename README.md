@@ -9,6 +9,11 @@
 
 - 下載檔案後，使用 live server 直接執行 `index.html` 查看效果
 
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-1.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-2.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-3.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-4.png)
+
 ## 需求
 
 - 當觸發列印功能，若表身超過兩頁時，每頁的起頭都必須要有表頭，而表頭與表頭之間必定在不同分頁上
@@ -49,7 +54,7 @@ export default function print_table_header_body(obj = {}) {
 
 - 瀏覽器的畫面顯示分為常態顯示與列印顯示兩種，可以透過工具區的算繪功能來調整，列印顯示等同於瀏覽器上按右鍵選列印時跳出的預覽列印
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8b22471b-b0b4-4116-96af-75d1dcc0586f/7325f303-e58f-4351-930d-a1e499dafdd1/Untitled.png)
+![image](https://github.com/tomylee78/print-table-header-body/blob/main/demo_img/demo-0.png)
 
 - 因顯示模式的不同，CSS 也能對應模式做不同的 CSS 渲染，具體指令是透過 `@media print` 來區隔當列印時要額外跑哪些 CSS
 - 而針對列印時的列印設定，可使用 `@page` 來實作，例如紙張大小設定、邊界設定等等
